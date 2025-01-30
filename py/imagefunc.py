@@ -47,7 +47,7 @@ def log(message:str, message_type:str='info'):
         message = '\033[1;32m' + message + '\033[m'
     else:
         message = '\033[1;33m' + message + '\033[m'
-    print(f"# 😺dzNodes: {name} -> {message}")
+    print(f"Nodes: {name} -> {message}")
 
 try:
     from cv2.ximgproc import guidedFilter
